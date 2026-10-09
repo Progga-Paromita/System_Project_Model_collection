@@ -1,0 +1,4 @@
+Configuration,Loss,Unfreezing,Accuracy,Balanced Acc,Macro F1 (Primary),Weighted F1
+1. Base ResNet50 (Plain CE),Plain CE,End-to-End,0.7265,0.4362,0.4337,0.7100
+2. Gradual Unfreezing (Plain CE),Plain CE,4-Stage Progressive,0.7036,0.4174,0.4458,0.6873
+4. Gradual Unfreezing (Weighted CE),Sqrt-Weighted CE,4-Stage Progressive,0.6781,0.4209,0.4518,0.6788
